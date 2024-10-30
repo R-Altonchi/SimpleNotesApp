@@ -86,7 +86,6 @@ fun NoteApp(list: MutableList<Note>, appState: MutableState<String>, noteToEdit:
     }
     }
 }
-
 @Composable
 fun MainScreen(list: MutableList<Note>, modifier: Modifier = Modifier, appState: MutableState<String>, noteToEdit: MutableState<Note>) {
     Box(modifier = modifier.fillMaxSize()) { // Use Box for positioning
