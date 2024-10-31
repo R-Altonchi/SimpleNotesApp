@@ -49,7 +49,7 @@ class MainActivity : ComponentActivity() {
         super.onCreate(savedInstanceState)
         setContent {
             val list = remember {
-                mutableStateListOf(Note(title = "PRESS ME!!!", content = "Hi wlcome to the SimpleNotesApp it's as simple as it seems you can create notes, delete or change notes."))
+                mutableStateListOf(Note(title = "PRESS ME!!!", content = "Hi welcome to the SimpleNotesApp it's as simple as it seems you can create notes, delete or change notes."))
             }
             val appState: MutableState<String> = remember {
                 mutableStateOf("Main")
